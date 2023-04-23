@@ -13,6 +13,7 @@ for (var i = 0; i < numofbutton; i++) {
 
 document.addEventListener("keypress",function(event){
     makeSound(event.key);
+    buttonAnimation(event.key);
 })
 
 
